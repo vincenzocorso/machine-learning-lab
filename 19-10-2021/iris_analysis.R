@@ -80,3 +80,6 @@ for(i in 1:4) {
 
 # Univariate analysis: feature plot
 featurePlot(x, y, plot="density", scales=list(x=list(relation="free"), y=list(relation="free")), auto.key=list(columns=3))
+
+# Multivariate analysis
+featurePlot(x=x, y=y, plot="pairs", auto.key=list(columns=3))
